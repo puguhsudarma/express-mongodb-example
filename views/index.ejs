@@ -1,0 +1,43 @@
+<% include ./partials/header %>
+
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <h1>Let's cover about everything!</h1>
+            <p><a class="btn btn-primary btn-lg" href="/campgrounds/new" role="button">add new post</a></p>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="1-freepik.jpg" alt="gambar">
+                    <div class="caption text-center">
+                        <h3>
+                            <%= camps.title %>
+                        </h3>
+                        <p><a href="#" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="1-freepik.jpg" alt="gambar">
+                    <div class="caption text-center">
+                        <h3>This is another thing</h3>
+                        <p><a href="#" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</button>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-right">@Reroet trademark 2017</p>
+            </div>
+        </div>
+    </div>
+
+    <% include ./partials/footer %>
